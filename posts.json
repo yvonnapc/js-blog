@@ -1,0 +1,17 @@
+{ "posts": [{
+    "headline": "Highland Park Brewery",
+    "body": "Highland Park Brewery is a nice surprise with both great beer and delicious food, there is something everyone can enjoy at this brewery",
+    "author": "Yvonna Contreras",
+    "image": "https://scontent.cdninstagram.com/hphotos-xfa1/t51.2885-15/s640x640/e35/sh0.08/11426429_1673649872867464_1428149553_n.jpg"
+}, {
+    "headline": "RPM IPA",
+    "body": "This solid IPA from Boneyard Brewery is a go-to in any occasion, although typically paired with a meal as it is heavy!",
+    "author": "Jared Beckler & Yvonna Contreras",
+    "image": "http://img2.10bestmedia.com/Images/Photos/309746/boneyard-brewing-rpm-ipa_54_990x660.jpg"
+}, {
+    "headline": "Habanero Sculpin",
+    "body": "This sculpin packs a serious heat and will burn going down (in an oh-so-good way), be brave and you shall be rewarded!",
+    "author": "Jared Beckler",
+    "image":"https://thisiswhyimdrunk.files.wordpress.com/2015/03/ballast-point-sculpin-habanero-sculpin-ipa-india-pale-ale-beer-craft-beer-beertography-web.jpg"
+  }]
+}

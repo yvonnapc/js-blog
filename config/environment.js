@@ -4,6 +4,7 @@ module.exports = function(environment) {
   var ENV = {
     modulePrefix: 'blog',
     environment: environment,
+    firebase: 'https://yvonnajared.firebaseio.com/',
     baseURL: '/',
     locationType: 'auto',
     googleFonts: [
