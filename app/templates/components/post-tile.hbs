@@ -3,9 +3,11 @@
     {{post.body}}<br>
     <br>
 
-  {{#ember-remodal openButton='Show Image'}}
-    <img src={{post.image}} {{action 'imageHide'}}>
+  {{#ember-remodal openButton='Image'}}
+    <img class="photos" src={{post.image}}>
   {{/ember-remodal}}
+
+  <button {{action 'delete' post}}>Delete</button>
 
     <!-- <button {{action 'imageShow'}}>Show Image</button> -->
 
