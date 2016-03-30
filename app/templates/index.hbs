@@ -1,1 +1,7 @@
-{{outlet}}
+<h1>Beckler's Brews</h1>
+
+<ul>
+{{#each model as |post|}}
+  <li>{{post.author}} {{post.headline}} {{post.body}}</li>
+{{/each}}
+</ul>
