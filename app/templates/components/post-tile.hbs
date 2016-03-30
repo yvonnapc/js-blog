@@ -1,16 +1,8 @@
-<li>
-  <h2 class="headline">{{post.headline}}</h2>
-  <h4>Author: {{post.author}}</h4>
-    {{post.body}}<br>
-    <br>
-
-  {{#ember-remodal openButton='Image'}}
-    <img class="photos" src={{post.image}}>
-  {{/ember-remodal}}
-
-{{update-post post=post update="update"}}
-  <button {{action 'delete' post}}>Delete</button>
-
-    <!-- <button {{action 'imageShow'}}>Show Image</button> -->
-
+<li>{{#link-to 'post' post.id}}
+    <h3>{{post.headline}}</h3> {{/link-to}}
+    {{#if isImageShowing}}
+      <p><img class="photos" src={{post.image}} {{action 'imageHide'}}></p>
+    {{else}}
+    <button {{action 'imageShow'}}>Show Image</button>
+    {{/if}}
 </li>

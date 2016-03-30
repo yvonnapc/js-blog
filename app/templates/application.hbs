@@ -1,9 +1,13 @@
 <div class="page-header">
-  <h1 class="white">Becklers Brews</h1>
-  <!-- <h3 class="title" class="white">{{#link-to 'contact'}} Contact us for more information!{{/link-to}}</h3> -->
+  <ol class="breadcrumb">
+    <li>{{#link-to 'index'}}Home{{/link-to}}</li>
+    <li>{{#link-to 'contact'}}Contact{{/link-to}}</li>
+    <li>{{#link-to 'about'}}About{{/link-to}}</li>
+  </ol>
 </div>
+
 <div class="container">
-{{outlet}}
+  {{outlet}}
 </div>
 
 <div class="page-footer">
