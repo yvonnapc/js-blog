@@ -1,9 +1,12 @@
 <li>
   <h2 class="headline">{{post.headline}}</h2><h4>Author: {{post.author}}</h4>
     {{post.body}}<br>
-  {{#if isImageShowing}}
-    <p><img src={{post.image}} {{action 'imageHide'}}></p>
-  {{else}}
-    <button {{action 'imageShow'}}>Show Image</button>
-  {{/if}}
+    <br>
+
+  {{#ember-remodal openButton='Show Image'}}
+    <img src={{post.image}} {{action 'imageHide'}}>
+  {{/ember-remodal}}
+
+    <!-- <button {{action 'imageShow'}}>Show Image</button> -->
+
 </li>
