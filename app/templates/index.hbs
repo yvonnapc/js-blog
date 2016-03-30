@@ -2,6 +2,6 @@
 
 <ul>
 {{#each model as |post|}}
-  <li>{{post.author}} {{post.headline}} {{post.body}}</li>
+  {{post-tile post=post}}
 {{/each}}
 </ul>
