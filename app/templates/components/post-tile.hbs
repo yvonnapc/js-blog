@@ -1,4 +1,6 @@
-<li>{{post.author}} {{post.headline}} {{post.body}}
+<li>
+  <h2 class="headline">{{post.headline}}</h2><h4>Author: {{post.author}}</h4>
+    {{post.body}}<br>
   {{#if isImageShowing}}
     <p><img src={{post.image}} {{action 'imageHide'}}></p>
   {{else}}
