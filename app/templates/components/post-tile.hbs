@@ -8,6 +8,7 @@
     <img class="photos" src={{post.image}}>
   {{/ember-remodal}}
 
+{{update-post post=post update="update"}}
   <button {{action 'delete' post}}>Delete</button>
 
     <!-- <button {{action 'imageShow'}}>Show Image</button> -->
