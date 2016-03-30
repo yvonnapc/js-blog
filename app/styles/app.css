@@ -3,6 +3,35 @@
   max-width: 480px;
 }
 
+h4, h1 {
+  font-weight: normal;
+}
+#link-to {
+  cursor: crosshair;
+}
+body {
+  cursor: crosshair;
+}
+.textbox {
+  height: 25px;
+  width: 200px;
+  background-color: transparent;
+  border-style: solid;
+  border-width: 0px 0px 1px 0px;
+  border-color: black;
+  outline:0;
+}
+
+.textboxEdit{
+  height: 25px;
+  width: 200px;
+  background-color: transparent;
+  border-style: solid;
+  border-width: 0px 0px 1px 0px;
+  border-color: black;
+  outline:0;
+}
+
 button {
   -moz-box-shadow:inset 32px -45px 0px 50px #ffffff;
   	-webkit-box-shadow:inset 32px -45px 0px 50px #ffffff;
