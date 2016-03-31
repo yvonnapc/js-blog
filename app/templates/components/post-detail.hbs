@@ -1,9 +1,16 @@
 <h1>"{{post.headline}}" <small> By: {{post.author}}</small></h1>
 <br>
-<img class="photos" src={{post.image}}>
-
-
-<h4>{{post.body}}</h4>
-
-
-<button {{action 'delete' post}}>Delete</button>
+<div class="row">
+  <div class="col-lg-6">
+    <img class="photos" src={{post.image}}>
+  </div>
+  <div class="col-lg-6">
+    <h4>{{post.body}}</h4>
+    <br>
+    <br>
+    <br>
+    <button {{action 'delete' post}}>Delete</button>
+  </div>
+</div>
+<br>
+<br>

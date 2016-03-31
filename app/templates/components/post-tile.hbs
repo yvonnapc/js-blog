@@ -1,7 +1,8 @@
-<li>{{#link-to 'post' post.id}}
-    <h3>{{post.headline}}</h3> {{/link-to}}
+
+  {{#link-to 'post' post.id}}
+    {{post.headline}} {{/link-to}}
     {{#ember-remodal openButton='Image'}}
         <img class="photos" src={{post.image}}>
     {{/ember-remodal}}
+
     <!-- <button {{action 'imageShow'}}>Show Image</button> -->
-</li>

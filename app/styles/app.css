@@ -6,9 +6,12 @@
 h4, h1 {
   font-weight: normal;
 }
+
 #link-to {
   cursor: crosshair;
+  color: black;
 }
+
 body {
   cursor: crosshair;
 }
@@ -22,6 +25,9 @@ body {
   outline:0;
 }
 
+.breadcrumb {
+  background-color: white;
+}
 .textboxEdit{
   height: 25px;
   width: 200px;
